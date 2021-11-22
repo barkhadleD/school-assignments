@@ -24,8 +24,8 @@ if season == ('summer'):
 
     elif hot == ('yes'):
         print('''I find that interesting. you said that you find summer
-        to be hot but yet you also said that summer was your favourite 
-        time of year.''')
+to be hot but yet you also said that summer was your favourite 
+time of year.''')
 
 
 if season == ('winter'):
@@ -46,7 +46,7 @@ if season == ('winter'):
         print('We should talk more next time')
 
 #------------------------------------------------------------------------------
-if season == ('Summer'):
+elif season == ('Summer'):
     print('I like summer the best as well')
     print('Do you ever find that summer is too hot')
     print('Please answer yes or no')
@@ -58,11 +58,11 @@ if season == ('Summer'):
 
     elif hot == ('yes'):
         print('''I find that interesting. you said that you find summer
-        to be hot but yet you also said that summer was your favourite 
-        time of year.''')
+to be hot but yet you also said that summer was your favourite 
+time of year.''')
 
 
-if season == ('Winter'):
+elif season == ('Winter'):
     print('Don\'t you find winter too cold?')
     print('Please answer yes or no.')
     cold = input()

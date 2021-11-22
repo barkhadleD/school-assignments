@@ -1,5 +1,5 @@
-print('Hello, what is your name?')
-Name = input().capitalize()
+print('Hello my name is Bender, what is your name?')
+Name = input().capitalize() 
 print(f'''{Name} would you like to know how many days are in a specific month
 of the year? Please answer with yes or no.''')
 yes = input()
@@ -12,40 +12,40 @@ if yes == ('yes'):
     if month == ('January'):
         print (f'there are 31 days in the month of {month}')
         
-    elif month == ('march'):
+    elif month == ('March'):
         print (f'there are 31 days in the month of {month}')
         
-    elif month == ('may'):
+    elif month == ('May'):
         print (f'there are 31 days in the month of {month}')
         
     elif month == ('July'):
         print (f'there are 31 days in the month of {month}')
         
-    elif month == ('august'):
+    elif month == ('August'):
         print (f'there are 31 days in the month of {month}')
         
-    elif month == ('october'):
+    elif month == ('October'):
         print (f'there are 31 days in the month of {month}')
         
-    elif month == ('december'):
+    elif month == ('December'):
         print (f'there are 31 days in the month of {month}')
         
     
-    elif month == ('april'):
-        print(f'there are 31 days in the month of {month}')
+    elif month == ('April'):
+        print(f'there are 30 days in the month of {month}')
         
-    elif month == ('june'):
-        print(f'there are 31 days in the month of {month}')
+    elif month == ('June'):
+        print(f'there are 30 days in the month of {month}')
         
-    elif month == ('septenber'):
-        print(f'there are 31 days in the month of {month}')
+    elif month == ('September'):
+        print(f'there are 30 days in the month of {month}')
         
-    elif month == ('november'):
-        print(f'there are 31 days in the month of {month}')
+    elif month == ('November'):
+        print(f'there are 30 days in the month of {month}')
 
         
-    elif month == ('febuary'):
-        print (f'there are 31 days in the month of {month}')
+    elif month == ('February'):
+        print (f'there are 28 days in the month of {month}')
     
 print(f'Ok {Name} thank you for your time.')
 
